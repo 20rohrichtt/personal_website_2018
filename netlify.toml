@@ -1,0 +1,7 @@
+
+# Settings in the [build] context are global and are applied to all contexts unless otherwise overridden by more specific contexts.  
+
+[build]
+  # This is the directory to change to before starting a build.
+  base    = "website/"
+  publish = "website/build"
